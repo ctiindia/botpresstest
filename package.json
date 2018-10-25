@@ -1,0 +1,27 @@
+{
+  "name": "application-name",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server",
+    "ghost-sync": "botpress ghost-sync",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },  
+  "dependencies": {
+    "@botpress/audience": "10.47.0",
+    "@botpress/builtins": "10.47.0",
+    "@botpress/channel-web": "10.47.0",
+    "@botpress/hitl": "10.47.0",
+    "@botpress/nlu": "10.47.0",
+    "@botpress/skill-choice": "10.47.0",
+    "botpress": "10.47.0",
+    "http-server": "^0.11.1",
+    "jsdoc-api": "^4.0.3",
+    "lodash": "^4.17.10",
+    "yn": "^2.0.0"
+  },
+"license": "Apache",
+"engines": {
+    "node": "~0.10.0 || ~4.2.0"
+  }
+}

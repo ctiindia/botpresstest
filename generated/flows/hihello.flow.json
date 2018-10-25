@@ -1,0 +1,32 @@
+{
+  "version": "0.1",
+  "catchAll": {},
+  "startNode": "hi",
+  "nodes": [
+    {
+      "id": "943bf0d97d",
+      "name": "hi",
+      "onEnter": [
+        "say #!builtin_text-vAE6AK"
+      ],
+      "onReceive": null,
+      "next": [
+        {
+          "condition": "hi",
+          "node": "welcome_message"
+        }
+      ]
+    },
+    {
+      "id": "19c9cdb48c",
+      "name": "welcome_message",
+      "next": [],
+      "onEnter": [
+        "say #!builtin_text-sSlV30"
+      ],
+      "onReceive": [
+        "say #!builtin_text-sSlV30"
+      ]
+    }
+  ]
+}
